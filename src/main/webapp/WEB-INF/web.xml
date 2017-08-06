@@ -18,7 +18,9 @@
 		</servlet-mapping>
 		<context-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/root-context.xml</param-value>
+			<param-value>/WEB-INF/spring-mvc-servlet.xml,
+						 /WEB-INF/root-context.xml
+			</param-value>
 		</context-param>
 		<!-- Spring ContextLoaderListener -->
 		<listener>

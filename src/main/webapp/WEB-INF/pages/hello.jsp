@@ -4,8 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>测试主题页</title>
 </head>
-<body>${greeting}
+<body>
+	<h1 style="color: blue">${greeting}</h1>
+	<ul>
+		<li><a href="withhttp">测试servlet原生</a></li>
+		<li><a href="redirect">测试重定向</a></li>
+	</ul>
 </body>
 </html>

@@ -5,5 +5,13 @@
    http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<!-- Empty -->
-
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix">
+			<value>/WEB-INF/</value>
+		</property>
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+	</bean>
 </beans>
