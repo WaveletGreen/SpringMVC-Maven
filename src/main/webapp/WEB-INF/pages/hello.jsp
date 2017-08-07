@@ -11,6 +11,9 @@
 	<ul>
 		<li><a href="withhttp">测试servlet原生</a></li>
 		<li><a href="redirect">测试重定向</a></li>
+		<li><a href="pathVariable">测试PathVariable</a></li>
+		<li><a href="getResopnse">获取返回主体</a></li>
+		<li><a href="getResponseObject">获取返回对象</a></li>
 	</ul>
 </body>
 </html>

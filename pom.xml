@@ -47,6 +47,11 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>4.1.4.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+			<version>1.9.13</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>SpringMVC</finalName>

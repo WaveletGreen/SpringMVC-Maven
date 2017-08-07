@@ -31,4 +31,9 @@ public class WithHttpServlet {
 		System.out.println("-----测试重定向----");
 		return "redirect:/withhttp";
 	}
+
+	@RequestMapping("pathVariable")
+	public String pathVariableTest() {
+		return "WithURLPage";
+	}
 }
